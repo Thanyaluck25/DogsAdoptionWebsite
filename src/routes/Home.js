@@ -1,5 +1,6 @@
 import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
+import Dog from "../components/Dog"
 
 export default function Home (){
     return (
@@ -11,7 +12,10 @@ export default function Home (){
             title = "Start Your Journey with Doggy"
             btnText = "Adopt Here!"
             url="/"
-            btnClass="show"/>
+            btnClass="show"
+            />
+            <Dog/>
+
         </div>
     )
 }

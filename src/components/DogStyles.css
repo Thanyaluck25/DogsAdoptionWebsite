@@ -1,0 +1,78 @@
+.dog {
+    margin: 4rem 6rem;
+}
+
+.dog h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #005f73;
+}
+
+.first-dog {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.dog-text {
+    width: 45%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+
+.dog-text h2 {
+    padding-bottom: 1rem;
+}
+
+.image {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+}
+
+.image img {
+    width: 49%;
+    height: 285px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 7px -6px 8px -4px rgb(0, 0, 0, 0.2);
+}
+
+.image img:nth-child(2) {
+    position: absolute;
+    top: -10%;
+    right: 0;
+}
+
+@media screen and (max-width: 850px) {
+    .dog {
+        margin: 4rem 2rem;
+    }
+
+    .first-dog {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 3rem;
+    }
+
+    .dog-text {
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+        margin: 1.8rem 0;
+
+    }
+
+    .image img {
+        height: 250px;
+    }
+
+    
+    
+    
+}
