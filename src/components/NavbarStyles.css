@@ -117,10 +117,6 @@ button {
         
     }
 
-    button {
-        display: none;
-    }
-
     .nav-links-mobile {
         display: block;
         text-align: center;
