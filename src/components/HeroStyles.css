@@ -37,6 +37,7 @@ img {
     font-weight: bolder;
     color: whitesmoke;
     padding: 0 0 2rem 0;
+    text-align: center;
 }
 
 .hero-text .show {
@@ -68,6 +69,7 @@ img {
 
     .hero-text h1 {
         padding: auto;
+        text-align: center;
     }
 
     .hero-text .show {
