@@ -1,5 +1,7 @@
 import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
+import Adopt from "../components/Adopt"
 
 export default function Service (){
     return (
@@ -11,6 +13,8 @@ export default function Service (){
             title = "Adopt"
             url="/"
             btnClass="hide"/>
+            <Adopt />
+            <Footer />
         </div>
     )
 }
