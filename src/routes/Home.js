@@ -15,9 +15,7 @@ export default function Home (){
             url="/"
             />
             <Dog />
-            <Adopt />
             <Footer />
-
         </div>
     )
 }
