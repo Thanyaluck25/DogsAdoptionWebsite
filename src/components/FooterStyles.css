@@ -1,0 +1,33 @@
+.footer {
+    padding: 2rem 6rem;
+    background: #005f73;
+    color: #f2e8cf;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top h1 {
+
+}
+
+.top p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.top i {
+    color: #f2e8cf;
+    font-size: 1.8rem;
+    margin-left: 1rem;
+}
+
+.top i:hover {
+    color: #f6bd60;
+}
