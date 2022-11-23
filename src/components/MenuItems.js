@@ -7,16 +7,10 @@ export const MenuItems = [
         icon: "fa-solid fa-house-chimney"
     },
     {
-        title: "About",
-        url: "/about",
-        cName: "nav-links",
-        icon: "fa-sharp fa-solid fa-circle-info"
-    },
-    {
-        title: "Service",
+        title: "Adopt",
         url: "/service",
         cName: "nav-links",
-        icon: "fa-solid fa-suitcase"
+        icon: "fa-solid fa-dog"
     },
     {
         title: "Contact",
