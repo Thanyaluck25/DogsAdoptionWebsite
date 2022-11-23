@@ -1,0 +1,45 @@
+.from-container {
+    margin: 4rem 6rem;
+    color: #005f73;
+    text-align: center;
+}
+
+.from-container form {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.from-container input {
+    height: 2.5rem;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid #005f73;
+}
+
+.from-container textarea {
+    height: 10rem;
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    border: 2px solid #005f73;
+}
+
+.from-container button {
+    display: inline;
+}
+
+@media screen and (max-width: 850px) {
+    .from-container {
+        margin: 4rem 2rem;
+    }
+
+    .from-container form {
+        padding-top: 2rem;
+        width: 90%;
+    }
+    
+}

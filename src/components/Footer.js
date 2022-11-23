@@ -10,17 +10,17 @@ const Footer = ()=>{
                 </div>
 
                 <div>
-                    <a href="/">
+                    <a href="https://www.facebook.com/SoiDogPageInEnglish/">
                         <i class="fa-brands fa-facebook"></i>
                     </a>
-                    <a href="/">
-                        <i class="fa-brands fa-line"></i>
+                    <a href="https://www.youtube.com/user/SoiDogFoundation?themeRefresh=1">
+                        <i class="fa-brands fa-youtube"></i>
                     </a>
-                    <a href="/">
+                    <a href="https://twitter.com/SoiDogPhuket">
                         <i class="fa-brands fa-twitter"></i>
                     </a>
-                    <a href="/">
-                        <i class="fa-solid fa-phone"></i>
+                    <a href="https://www.instagram.com/soidogfoundation/">
+                        <i class="fa-brands fa-instagram"></i>
                     </a>
                 </div>
             </div>
