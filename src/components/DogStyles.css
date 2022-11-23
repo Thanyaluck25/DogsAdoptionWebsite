@@ -26,7 +26,7 @@
 .dog-text {
     width: 45%;
     text-align: start;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 450;
     color: #0a9396;
 }
@@ -34,7 +34,7 @@
 .dog-text h2 {
     padding-bottom: 1rem;
     color: #005f73;
-    font-size: 1.8rem
+    font-size: 2rem
 }
 
 .image {
@@ -47,7 +47,7 @@
 
 .image img {
     width: 49%;
-    height: 285px;
+    height: 500px;
     object-fit: cover;
     border-radius: 20px;
     box-shadow: 7px -6px 8px -4px rgb(0, 0, 0, 0.2);
