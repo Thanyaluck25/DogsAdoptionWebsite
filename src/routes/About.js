@@ -8,7 +8,7 @@ export default function About (){
             <Navbar />
             <Hero 
             cName = "hero-mid"
-            heroImg = "https://wallpaperaccess.com/full/264334.jpg"
+            heroImg = "https://wallpaperaccess.com/full/264330.jpg"
             title = "About"
             url="/"
             btnClass="hide"/>
