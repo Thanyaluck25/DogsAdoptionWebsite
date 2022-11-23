@@ -1,6 +1,7 @@
 import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
 import Dog from "../components/Dog"
+import Adopt from "../components/Adopt"
 
 export default function Home (){
     return (
@@ -14,7 +15,8 @@ export default function Home (){
             url="/"
             btnClass="show"
             />
-            <Dog/>
+            <Dog />
+            <Adopt />
 
         </div>
     )
