@@ -12,17 +12,29 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 4.5rem 0 5rem 0;
+}
+
+.first-dog-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 4.5rem;
 }
 
 .dog-text {
     width: 45%;
     text-align: start;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    font-weight: 450;
+    color: #0a9396;
 }
 
 .dog-text h2 {
     padding-bottom: 1rem;
+    color: #005f73;
+    font-size: 1.8rem
 }
 
 .image {
@@ -43,7 +55,7 @@
 
 .image img:nth-child(2) {
     position: absolute;
-    top: -10%;
+    top: 10%;
     right: 0;
 }
 
@@ -56,6 +68,12 @@
         display: flex;
         flex-direction: column-reverse;
         margin-top: 3rem;
+    }
+
+    .first-dog-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
     }
 
     .dog-text {

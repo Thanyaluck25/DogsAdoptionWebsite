@@ -8,7 +8,7 @@ export default function Service (){
             <Hero 
             cName = "hero-mid"
             heroImg = "https://wallpaperaccess.com/full/264291.jpg"
-            title = "Service"
+            title = "Adopt"
             url="/"
             btnClass="hide"/>
         </div>
